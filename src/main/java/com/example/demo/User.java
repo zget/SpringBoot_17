@@ -37,6 +37,15 @@ public class User {
     public User() {
     }
 
+    public User(String email, String password, String first_name, String last_name, boolean enabled, String username) {
+        this.email = email;
+        this.password = password;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.enabled = enabled;
+        this.username = username;
+    }
+
     public long getId() {
         return id;
     }
